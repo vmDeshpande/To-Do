@@ -90,7 +90,7 @@ export default function Content() {
         </div>
       )}
       <div style={{ padding: "3em" }}>
-        <TaskCard tasks={tasks}></TaskCard>
+        <TaskCard tasks={tasks} setTasks={setTasks}></TaskCard>
       </div>
     </>
   );
